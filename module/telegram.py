@@ -7,8 +7,8 @@ class TelegramBot:
     ACTIVE = False
     
     def load_config():
-        TelegramBot.TOKEN = "5037557954:AAG-5mOKo-JVA-RISdcCAr9ntJKP8JBhoA4"
-        TelegramBot.CHAT_ID = -623481370
+        TelegramBot.TOKEN = ""
+        TelegramBot.CHAT_ID = ''
         
         if (TelegramBot.TOKEN and (TelegramBot.CHAT_ID and TelegramBot.CHAT_ID != 0)):
             TelegramBot.ACTIVE = True
